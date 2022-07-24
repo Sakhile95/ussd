@@ -30,7 +30,6 @@
 
     }
 
-    header('Content-type; text/plain');
     echo $response;
 
 ?>
