@@ -8,25 +8,25 @@
 
     if($text == ""){
 
-        $response = "CONWelcome to Eswatini Mobile e-Mali\nEnter your password:";
+        $response = "CON Welcome to Eswatini Mobile e-Mali\nEnter your password:";
 
 
     }else if($text == "1995"){
 
-        $response = "CONAccount holder: Sakhile Mkhonta\n1. Transfer money\n2. Request money\n3. Check account balance";
+        $response = "CON Account holder: Sakhile Mkhonta\n1. Transfer money\n2. Request money\n3. Check account balance";
 
     }else if($text == "1995*1"){
 
-        $response = "ENDPlease enter amount:";
+        $response = "END Please enter amount:";
 
     }else if($text == "1995*2"){
 
-        $response = "ENDPlease enter amount:";
+        $response = "END Please enter amount:";
 
     }else if($text == "1995*3"){
 
         $balance = "5000";
-        $response = "ENDBalance: ".$balance;
+        $response = "END Balance: ".$balance;
 
     }
 
